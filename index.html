@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
-  <header>
+  <header class="">
+    <div class="scroll-top-btn">scroll top</div>
     <div class="inner">
       <h1 class="title">
         <a href="#">
@@ -18,12 +20,17 @@
       </h1>
       <nav>
         <ul>
-          <li><a href="#">menu1</a></li>
-          <li><a href="#">menu2</a></li>
-          <li><a href="#">menu3</a></li>
-          <li><a href="#">menu4</a></li>
+          <li><a href="#s01" class="menu-link">menu1</a></li>
+          <li><a href="#s02" class="menu-link">menu2</a></li>
+          <li><a href="#s03" class="menu-link">menu3</a></li>
+          <li><a href="#s04" class="menu-link">menu4</a></li>
         </ul>
       </nav>
+      <a href="#" class="nav-btn">
+        <span>0</span>
+        <span>1</span>
+        <span>2</span>
+      </a>
     </div>
   </header>
   <section id="s01">
@@ -144,7 +151,28 @@
       </ul>
     </div>
   </section>
-
+  <footer>
+    <div class="inner">
+      <h3>LOGO</h3>
+      <ul class="foot-list">
+        <li>
+          <a href="#">
+            <img src="./img/Vector1.png" alt="icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/Vector2.png" alt="icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/Vector3.png" alt="icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
 </body>
-
 </html>
